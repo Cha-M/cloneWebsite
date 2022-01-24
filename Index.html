@@ -10,18 +10,6 @@
     
 <body>
     <header>
-        <script>
-            let prevScrollpos = window.pageYOffset;
-                window.onscroll = function() {
-                let currentScrollPos = window.pageYOffset;
-                if (prevScrollpos > currentScrollPos) {
-                    document.getElementById("newLeftTitle").style.top = "0";
-                } else {
-                    document.getElementById("newLeftTitle").style.top = "-50px";
-                }
-                prevScrollpos = currentScrollPos;
-                }
-        </script>
         <div class = "headerBar">
             <div class = "headerBarTitle">
                 <div class = "headerBarTitleText" id = "newLeftTitle"><span style="color:#e0d0a6">New <span style="color:#87a8e2">Left </span><span style="color:#6cca93">Review</span></div>
