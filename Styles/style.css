@@ -1,0 +1,299 @@
+/* font-family: 'Cormorant', serif;
+font-family: 'Inter', sans-serif; */
+
+
+
+
+body {
+    font-family: 'Cormorant', serif;
+    /* align-items: stretch; */
+    /* background-image: "images/newLeftReview.png"; */
+    margin: 0;
+}
+
+/* header {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: white;
+} */
+ 
+
+.headerBar {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    background: #ce0e2e;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.headerBarTitle {
+    /* font-family: 'Inter', sans-serif; */
+    /* border:solid white 2px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 70vh;
+
+
+}
+
+.headerBarTitleText {
+
+    /* font-family: 'Inter', sans-serif; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    /* border:solid white 1px; */
+    /* margin-top: 10px; */
+    font-size: 47px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.headerBarMenu {
+    /* font-family: 'Inter', sans-serif; */
+    /* flex-direction: row; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 30vh;
+    max-height: 48px;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    border:solid white 1pt;
+
+}
+
+.headerBarMenuInner {
+    display: flex;
+    align-items: center;
+}
+
+.headerBarMenuElement {
+    /* font-family: 'Inter', sans-serif; */
+    margin-left: 0.5vh;
+    margin-right: 0.5vh;
+    transition: color 0.5s;
+}
+
+.headerBarMenuElement:hover {
+    /* font-family: 'Inter', sans-serif; */
+    color:lightgray;
+}
+
+
+/*
+
+*/
+
+.bodyAreaUp {
+    /* font-family: 'Cormorant', serif; */
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+
+}
+
+.bodyArea {
+    /* font-family: 'Cormorant', serif; */
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    flex: 1;
+    background: #3e040e;
+
+}
+
+.borderColumnL {
+    /* font-family: 'Cormorant', serif; */
+
+    width: 15vw;
+    flex-direction: row;
+    background: #3e040e;
+
+}
+
+/* .borderColumnR { */
+    /* font-family: 'Cormorant', serif; */
+
+    /* width: 10vw;
+    flex-direction: row;
+    background: #3e040e;
+    background: blue;
+
+
+} */
+
+
+.bodyAreaPage {
+    /* font-family: 'Cormorant', serif; */
+    display: flex;
+    width: 54vw;
+    /* border: 2px greenyellow dashed; */
+}
+
+.bodyAreaPageMain {
+    display: flex;
+    flex-direction: column;
+
+    width: 54vw;
+    height: 100pw;
+    margin-top: 48px;
+    /* margin-left: 247px; */
+    background: white;
+    min-height: 70vh;
+    flex-shrink: 0;
+    /* border: 2px red dashed; */
+}
+
+
+
+.bodyAreaPageAuthor {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 7rem;
+    width: 54vw;
+    height: 100pw;
+    align-items: center;
+    justify-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 0.25rem;
+    /*lesser not bolded like this*/
+}
+
+.bodyAreaPageTitle {
+
+    margin-top: 4.5rem;
+    width: 54vw;
+    height: 100pw;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 0.25rem;
+    text-align:center;
+    /*lesser not bolded like this*/
+}
+
+.bodyAreaPageMainText {
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    margin-left: 8rem;
+    width: 40vw;
+
+}
+
+.bodyAreaPageMainText2 {
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 8rem;
+    width: 40vw;
+
+}
+.bodyAreaPageMainInitial {
+
+    /* border: firebrick 2px dotted; */
+    font-weight: 700;
+    font-size: 10rem;
+    max-height: 8rem;
+    margin-top: -34px;
+    /*lesser not bolded like this*/
+}
+
+.bodyAreaPageMainInnerBody {
+
+    width: 54vw;
+    height: 100pw;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 2.25rem;
+    text-align: justify;
+    /*lesser not bolded like this*/
+}
+
+.bodyAreaPageMainInnerBody2 {
+
+    width: 54vw;
+    height: 100pw;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 2.25rem;
+    text-align: justify;
+    /*lesser not bolded like this*/
+}
+
+
+.rightMenu {
+    /* font-family: 'Cormorant', serif; */
+    /* align-items:; */
+    /* flex: 1; */
+    /* display: flex;
+    flex: 1;
+    flex-direction: row; */
+    display: flex;
+    align-self: stretch;
+    justify-content: left;
+    margin-top: 48px;
+    min-height: 100vh;
+    width: 20vw;
+    position: relative;
+    background: #3e040e;
+    color: white;
+
+
+}
+
+.rightMenuInner {
+    margin-left: 48px;
+}
+.rightMenuInnerHead {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+.rightMenuElement {
+    border: white solid;
+    font-weight: 500;
+    line-height: 2rem;
+    border-width: 0px 0px 1px 0px;
+    transition: color 0.5s;
+}
+
+.rightMenuElement:hover {
+    /* font-family: 'Inter', sans-serif; */
+    /* animation: fadeToGrey 1; */
+    color:lightgray;
+}
+
+/* @keyframes fadeToGrey {
+    from {}
+    to {color:lightgray}
+  } */
+/*
+.rightMenuIssue {
+    font-family: 'Cormorant', serif;
+}
+
+.rightMenuShare {
+    font-family: 'Cormorant', serif;
+}
+
+.rightMenuAuthor {
+    font-family: 'Cormorant', serif;
+} */
